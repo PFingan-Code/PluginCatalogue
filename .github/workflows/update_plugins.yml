@@ -4,8 +4,8 @@ on:
   push:                     # 当plugins目录有更新时触发
     paths:
       - 'plugins/**'
-  schedule:                 # 定时触发（每小时45分）
-    - cron: '45 * * * *'    # 每小时的45分执行
+  schedule:                 # 定时触发
+    - cron: '45 */4 * * *'    # 45时分执行
 jobs:
   update:
     runs-on: ubuntu-latest
