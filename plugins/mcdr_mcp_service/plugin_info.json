@@ -1,0 +1,16 @@
+{
+    "id": "mcdr_mcp_service",
+    "authors": [
+        {
+            "name": "LoosePrince",
+            "link": "https://github.com/LoosePrince"
+        }
+    ],
+    "repository": "https://github.com/LoosePrince/mcdr_mcp_service",
+    "branch": "main",
+    "related_path": "/",
+    "labels": ["api"],
+    "introduction": {
+        "zh_cn": "README.md"
+    }
+}
