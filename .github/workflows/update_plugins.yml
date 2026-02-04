@@ -10,12 +10,17 @@ jobs:
   update:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    permissions:
+      contents: write      # 允许写入仓库内容
+      actions: read        # 允许读取 Actions 信息
+    
     steps:
     - name: Checkout main branch
       uses: actions/checkout@v4
       with:
         ref: main
         fetch-depth: 0  # 获取完整历史以便后续操作
+        token: ${{ secrets.GITHUB_TOKEN }}
         
     - name: Set timezone to Beijing
       run: |
