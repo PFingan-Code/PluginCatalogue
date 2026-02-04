@@ -41,7 +41,7 @@ jobs:
         
     - name: 运行爬虫脚本，创建/更新 plugins.json
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         CACHE_ENABLED: 'true'
       run: |
         python scripts/plugin_scraper.py \
