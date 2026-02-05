@@ -81,7 +81,7 @@ https://looseprince.github.io/Plugin-Catalogue/plugins.json
 
 1. 克隆本仓库
 ```
-git clone https://github.com/LoosePrince/Plugin-Catalogue.git
+git clone https://github.com/PFingan-Code/PluginCatalogue.git
 cd Plugin-Catalogue
 ```
 

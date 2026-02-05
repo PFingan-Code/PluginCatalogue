@@ -14,4 +14,4 @@ https://looseprince.github.io/Plugin-Catalogue/plugins.json
 
 此分支仅包含生成的数据文件，用于 GitHub Pages 部署。如果您对项目感兴趣，请访问主仓库：
 
-[https://github.com/LoosePrince/Plugin-Catalogue](https://github.com/LoosePrince/Plugin-Catalogue)
+[https://github.com/PFingan-Code/PluginCatalogue](https://github.com/PFingan-Code/PluginCatalogue)
