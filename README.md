@@ -11,7 +11,7 @@ MCDR 插件仓库（非官）
 - 支持插件版本、下载量、许可证等信息的获取
 - 提供统一的 JSON 格式插件数据
 - 支持多语言插件描述
-- 被 [WebUI](https://github.com/LoosePrince/PF-MCDR-WebUI) 插件支持，实现一键安装功能
+- 被 [WebUI](https://github.com/PFingan-Code/PF-MCDR-WebUI) 插件支持，实现一键安装功能
 
 ## 目录结构
 
@@ -42,12 +42,12 @@ Plugin-Catalogue/meta
 您可以在 [WebUI](https://github.com/LoosePrince/PF-MCDR-WebUI) 插件的网页设置中添加本仓库（目前已内置WebUI插件中，无需进行此步）
 
 ```
-https://looseprince.github.io/Plugin-Catalogue/plugins.json
+https://pfingan-code.github.io/PluginCatalogue/plugins.json
 ```
 
 然后在在线插件的仓库列表中选择本仓库，即可看到所有插件信息
 
-也可以在 `https://looseprince.github.io/Plugin-Catalogue/` 查看所有插件信息
+也可以在 `https://pfingan-code.github.io/PluginCatalogue/` 查看所有插件信息
 
 ## 添加新插件（提交您的插件到本仓库）
 
