@@ -1,0 +1,16 @@
+{
+    "id": "webui_file_manager",
+    "authors": [
+        {
+            "name": "LoosePrince",
+            "link": "https://github.com/LoosePrince"
+        }
+    ],
+    "repository": "https://github.com/PFingan-Code/webui_file_manager",
+    "branch": "main",
+    "related_path": "src",
+    "labels": ["management"],
+    "introduction": {
+        "zh_cn": "../README.md"
+    }
+}
