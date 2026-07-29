@@ -1,0 +1,202 @@
+[
+  {
+    "id": "webui_file_manager",
+    "name": "WebUI File Manager",
+    "version": "1.0.1",
+    "description": {
+      "en_us": "A WebUI file manager plugin, browsing the MCDR root and (super admin) reading/writing local drives.",
+      "zh_cn": "WebUI 文件管理器插件，浏览 MCDR 根目录，超级管理员可读取/写入本地磁盘。"
+    },
+    "dependencies": {
+      "guguwebui": ">=1.8.3"
+    },
+    "labels": [
+      "management"
+    ],
+    "repository_url": "https://github.com/PFingan-Code/webui_file_manager",
+    "update_time": "2026-07-30 01:53:16",
+    "update_time_timestamp": 1785347596,
+    "latest_version": "1.0.1",
+    "license": null,
+    "license_url": null,
+    "downloads": 4,
+    "readme_url": "https://raw.githubusercontent.com/PFingan-Code/webui_file_manager/main/README.md",
+    "last_update_time": "2026-03-23T11:03:38Z",
+    "last_update_time_timestamp": 1774263818,
+    "authors": [
+      {
+        "name": "LoosePrince",
+        "link": "https://github.com/LoosePrince"
+      }
+    ]
+  },
+  {
+    "id": "gugubot",
+    "name": "GUGUbot",
+    "version": "2.2.2",
+    "description": {
+      "en_us": "A QQ bot connect MC and QQ",
+      "zh_cn": "一个QQ和MC互通的机器人（支持离线服务器）"
+    },
+    "dependencies": {
+      "whitelist_api": ">=1.3.0",
+      "mg_events": ">=0.2.3",
+      "player_ip_logger": ">=1.1.0"
+    },
+    "labels": [
+      "information",
+      "management"
+    ],
+    "repository_url": "https://github.com/PFingan-Code/PF-GUGUBot",
+    "update_time": "2026-07-30 01:53:17",
+    "update_time_timestamp": 1785347597,
+    "latest_version": "2.2.2",
+    "license": "GPL-3.0",
+    "license_url": "https://api.github.com/licenses/gpl-3.0",
+    "downloads": 2109,
+    "readme_url": "https://raw.githubusercontent.com/PFingan-Code/PF-GUGUBot/main/README.md",
+    "last_update_time": "2026-07-29T03:29:22Z",
+    "last_update_time_timestamp": 1785295762,
+    "authors": [
+      {
+        "name": "XueK66",
+        "link": "https://github.com/XueK66"
+      },
+      {
+        "name": "LoosePrince",
+        "link": "https://github.com/LoosePrince"
+      }
+    ]
+  },
+  {
+    "id": "guguwebui",
+    "name": "GUGU WebUI",
+    "version": "1.8.6",
+    "description": {
+      "en_us": "WebUI for managing all plugins, MCDR configurations, online installation, terminals, and more.",
+      "zh_cn": "通过webui来管理所有插件、MCDR配置、在线安装、终端等多种功能"
+    },
+    "dependencies": {},
+    "labels": [
+      "information",
+      "management"
+    ],
+    "repository_url": "https://github.com/PFingan-Code/PF-MCDR-WebUI",
+    "update_time": "2026-07-30 01:53:19",
+    "update_time_timestamp": 1785347599,
+    "latest_version": "1.8.6",
+    "license": "GPL-3.0",
+    "license_url": "https://api.github.com/licenses/gpl-3.0",
+    "downloads": 2612,
+    "readme_url": "https://raw.githubusercontent.com/PFingan-Code/PF-MCDR-WebUI/main/README.md",
+    "last_update_time": "2026-03-31T14:43:54Z",
+    "last_update_time_timestamp": 1774968234,
+    "authors": [
+      {
+        "name": "XueK66",
+        "link": "https://github.com/XueK66"
+      },
+      {
+        "name": "LoosePrince",
+        "link": "https://github.com/LoosePrince"
+      }
+    ]
+  },
+  {
+    "id": "player_ip_logger",
+    "name": "Player IP Logger",
+    "version": "1.2.1",
+    "description": {
+      "en_us": "Record player IP addresses",
+      "zh_cn": "记录玩家IP地址"
+    },
+    "dependencies": {},
+    "labels": [
+      "api"
+    ],
+    "repository_url": "https://github.com/PFingan-Code/PF-player_ip_logger",
+    "update_time": "2026-07-30 01:53:21",
+    "update_time_timestamp": 1785347601,
+    "latest_version": "1.2.1",
+    "license": "GPL-3.0",
+    "license_url": "https://api.github.com/licenses/gpl-3.0",
+    "downloads": 1551,
+    "readme_url": "https://raw.githubusercontent.com/PFingan-Code/PF-player_ip_logger/main/README.md",
+    "last_update_time": "2025-07-25T14:12:36Z",
+    "last_update_time_timestamp": 1753452756,
+    "authors": [
+      {
+        "name": "XueK66",
+        "link": "https://github.com/XueK66"
+      },
+      {
+        "name": "LoosePrince",
+        "link": "https://github.com/LoosePrince"
+      }
+    ]
+  },
+  {
+    "id": "mcdr_mcp_service",
+    "name": "MCDR MCP Service",
+    "version": "1.2.0",
+    "description": {
+      "zh_cn": "为AI提供MCP协议接口的MCDR控制服务，支持实时日志监控、插件管理、服务器控制等功能",
+      "en_us": "MCDR control service providing MCP protocol interface for AI with real-time log monitoring, plugin management, server control features"
+    },
+    "dependencies": {
+      "mcdreforged": ">=2.0.0"
+    },
+    "labels": [
+      "api"
+    ],
+    "repository_url": "https://github.com/PFingan-Code/mcdr_mcp_service",
+    "update_time": "2026-07-30 01:53:23",
+    "update_time_timestamp": 1785347603,
+    "latest_version": "1.2.0",
+    "license": "MIT",
+    "license_url": "https://api.github.com/licenses/mit",
+    "downloads": 16,
+    "readme_url": "https://raw.githubusercontent.com/PFingan-Code/mcdr_mcp_service/main/README.md",
+    "last_update_time": "2025-08-06T03:32:48Z",
+    "last_update_time_timestamp": 1754451168,
+    "authors": [
+      {
+        "name": "LoosePrince",
+        "link": "https://github.com/LoosePrince"
+      }
+    ]
+  },
+  {
+    "id": "cq_qq_api",
+    "name": "cq_qq_api",
+    "version": "1.6.0",
+    "description": {
+      "en_us": "Websocket application to process information from QQ",
+      "zh_cn": "处理QQ通信的websocket应用"
+    },
+    "dependencies": {},
+    "labels": [
+      "api"
+    ],
+    "repository_url": "https://github.com/XueK66/PF-cq_qq_api",
+    "update_time": "2026-07-30 01:53:25",
+    "update_time_timestamp": 1785347605,
+    "latest_version": "1.6.0",
+    "license": "GPL-3.0",
+    "license_url": "https://api.github.com/licenses/gpl-3.0",
+    "downloads": 1587,
+    "readme_url": "https://raw.githubusercontent.com/XueK66/PF-cq_qq_api/master/README.md",
+    "last_update_time": "2025-10-09T03:44:09Z",
+    "last_update_time_timestamp": 1759981449,
+    "authors": [
+      {
+        "name": "XueK66",
+        "link": "https://github.com/XueK66"
+      },
+      {
+        "name": "LoosePrince",
+        "link": "https://github.com/LoosePrince"
+      }
+    ]
+  }
+]
